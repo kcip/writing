@@ -847,7 +847,7 @@ function TeacherView({ classInfo, onLeave, onClassDeleted }) {
         reloadList();
     }
 
-    const assignmentUrl = activeAssignment ? `${window.location.origin}/write/${activeAssignment.id}` : '';
+    const assignmentUrl = activeAssignment ? `${window.location.origin}/writing/${activeAssignment.id}` : '';
 
     return (
         <>
