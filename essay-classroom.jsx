@@ -1025,7 +1025,7 @@ function AppShell() {
 
 export default function App() {
     return (
-        <BrowserRouter basename="/writing">
+        <BrowserRouter>
             <AppShell />
         </BrowserRouter>
     );
